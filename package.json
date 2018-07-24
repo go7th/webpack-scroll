@@ -1,0 +1,29 @@
+{
+  "name": "webpack-scroll",
+  "version": "1.0.0",
+  "description": "滚动特效",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "start": "webpack-dev-server --entry ./src/js/index.js --output-filename ./dist/js/index.js"
+  },
+  "author": "go7th",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "require": "^2.4.20",
+    "webpack-encoding-plugin": "^0.2.1"
+  }
+}
